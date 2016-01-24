@@ -1,0 +1,342 @@
+@import url("newsList.css");
+.font1 { color: #00F; }
+.font2 { color: #06F; }
+#subLeftMenu {
+	width: 210px;
+	float: left;
+	margin-left: 4px;
+}
+#subBannerBox {
+	text-align: center;
+	margin-left: 6px;
+	width: 948px;
+}
+
+#subLeftMentTitle {
+	background-image: url(../images/sub_05.gif);
+	height: 55px;
+	width: 210px;
+	text-indent: -10000px;
+}
+#subLeftMentTitle2 {
+	background-image: url(../images/ywjsLeftMenuTitle.gif);
+	height: 55px;
+	width: 210px;
+	text-indent: -10000px;
+}
+#subLeftMentTitleNews {
+	background-image: url(../images/newsSubMenu.gif);
+	height: 55px;
+	width: 210px;
+	text-indent: -10000px;
+}
+#subLeftMentTitleJswz {
+	background-image: url(../images/juwzSubMenu.gif);
+	height: 55px;
+	width: 210px;
+	text-indent: -10000px;
+}
+#subLeftMentTitleCase {
+	background-image: url(../images/caseSubMenu.gif);
+	height: 55px;
+	width: 210px;
+	text-indent: -10000px;
+}
+#subLeftMentTitleJob {
+	background-image: url(../images/jobSubMenu.gif);
+	height: 55px;
+	width: 210px;
+	text-indent: -10000px;
+}
+#subLeftMentTitleContact {
+	width: 199px;
+	float: left;
+
+}
+
+
+
+.subLeftMenuLi   {
+	line-height: 29px;
+	background-image: url(../images/subLeftMenuABg.gif);
+	text-align: center;
+	display: block;
+	height: 29px;
+	width: 210px;
+}
+.subLeftMenuLiOver {
+	line-height: 29px;
+	text-align: center;
+	display: block;
+	height: 29px;
+	width: 210px;
+	font-size: 14px;
+	font-weight: bolder;
+	background-image: url(../images/subLeftMenuOver.gif);
+	color: #FFF;
+}
+
+.subLeftMenuLiOver   a{
+	line-height: 29px;
+	text-align: center;
+	display: block;
+	height: 29px;
+	width: 210px;
+	font-size: 14px;
+	font-weight: bolder;
+	background-image: url(../images/subLeftMenuOver.gif);
+	color: #FFF;
+}
+#subLeftMenu .subLeftMenuLiOver a {
+	color: #FFF;
+}
+
+.subLeftMenuLi a{
+	line-height: 29px;
+	background-image: url(../images/subLeftMenuABg.gif);
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	height: 29px;
+	width: 210px;
+}
+.subLeftMenuLi a.visited {
+	line-height: 29px;
+	background-image: url(../images/subLeftMenuABg.gif);
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	height: 29px;
+	width: 210px;
+}
+
+.subLeftMenuLi a.hover {
+	line-height: 29px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #F00;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #39F;
+	height: 29px;
+	width: 210px;
+}
+#hereBox  {
+	background-image: url(../images/subHere.gif);
+	height: 41px;
+}
+#hereBox2 {
+	height: 31px;
+	background-image: url(../images/subRigthTab_bg.gif);
+	margin-left: 3px;
+	background-position: bottom;
+	margin-top: 8px;
+}
+
+
+
+#subRightBox {
+	float: right;
+	width: 738px;
+	margin-right: 5px;
+}
+
+#subRightTitleTxt {
+	padding-left: 30px;
+	display: block;
+	padding-top: 20px;
+	float: left;
+}
+.subRightTitleTxtTab {
+	display: block;
+	float: left;
+	background-image: url(../images/subRightTab1.gif);
+	vertical-align: middle;
+	line-height: 33px;
+	height: 31px;
+	width: 123px;
+	margin-right: 5px;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FFF;
+	text-align: center;
+}
+.subRightTitleTxtTabOver {
+	display: block;
+	float: left;
+	background-image: url(../images/subRightTabOver1.gif);
+	vertical-align: middle;
+	line-height: 33px;
+	height: 31px;
+	width: 123px;
+	margin-right: 5px;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FFF;
+	text-align: center;
+}
+.subRightTitleTxtTab2 {
+	display: block;
+	float: left;
+	background-image: url(../images/subRightTab2.gif);
+	vertical-align: middle;
+	line-height: 31px;
+	height: 31px;
+	width: 96px;
+	margin-right: 5px;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #333;
+	text-align: center;
+}
+.subRightTitleTxtTab2Over {
+	display: block;
+	float: left;
+	background-image: url(../images/subRightTabOver2.gif);
+	vertical-align: middle;
+	line-height: 31px;
+	height: 31px;
+	width: 96px;
+	margin-right: 5px;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FFF;
+	text-align: center;
+}
+#subRightTitleTab1 a {
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+#subRightHere {
+	float: right;
+	padding-top: 12px;
+	padding-right: 20px;
+	background-image: url(../images/herePic.gif);
+	padding-left: 50px;
+	background-repeat: no-repeat;
+	background-position: 13px 7px;
+}
+#subRightContent {
+	background-image: url(../images/subRightContentBg.gif);
+	height: 100%;
+	line-height: 22px;
+	left: 20px;
+	padding-right: 10px;
+	padding-left: 15px;
+	padding-top: 10px;
+	min-height:500px;
+	word-break:break-all;
+}
+#page {
+	text-align: center;
+	clear: both;
+}
+a.currentPage:link  {
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+a.currentPage:visited {
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+a.currentPage:hover {
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+#title {
+	font-size: 20px;
+	color: #666;
+	text-align: center;
+	font-weight: bold;
+	line-height: 24px;
+	padding-top: 9px;
+}
+#subRightContent .titBar {
+	text-align: center;
+	margin-bottom: 10px;
+}
+#subRightContent #newContent {
+	font-size: 13px;
+	line-height: 22px;
+	text-align: left;
+}
+
+.mapt {
+	background-image: url(../images/mpt.gif);
+	background-repeat: no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 13px;
+	padding-left: 50px;
+}.bkend {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #7DD2F2;
+	font-size: 11px;
+	line-height: 15px;
+	width: 300px;
+}
+.bkRight {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #7DD2F2;
+}
+.contact_map {
+	float: left;
+	height: 180px;
+	width: 320px;
+	margin-left: 20px;
+	border: 1px solid #CCC;
+}
+.contact_mapB {
+	float: left;
+	height: 180px;
+	width: 320px;
+	margin-left: 20px;
+	border: 1px solid #CCC;
+}
+.contact_txt {
+	float: left;
+	text-align: left;
+	margin-left: 5px;
+}
+.mapt {
+	background-image: url(../images/mpt.gif);
+	background-repeat: no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 13px;
+	padding-left: 50px;
+}.map {
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+.mapOver {
+	height: 170px;
+	width: 95%;
+	overflow: hidden;
+	position: relative;
+	top: 1px;
+}
+.mp {
+	position: absolute;
+	z-index: 100;
+	left: 215px;
+	top: 7px;
+}

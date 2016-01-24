@@ -1,0 +1,146 @@
+@charset "utf-8";
+#banner {
+	height: 371px;
+	width: 948px;
+	POSITION: relative;
+	left: 6px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+#content {
+	height: 189px;
+	background-image: url(../images/Default_content_bg.gif);
+	padding-top: 13px;
+	padding-bottom: 23px;
+}
+#news_box {
+	width: 324px;
+	height: 189px;
+	background-image: url(../images/Default_33.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+	float: left;
+}
+
+
+
+
+#news_title_pic {
+	height: 41px;
+	width: 144px;
+	cursor: hand;
+}
+
+#news_list {
+	height: 124px;
+	display: block;
+	padding-top: 5px;
+}
+#news_list li {
+	clear: both;
+}
+#news_list li a {
+	font-size: 12px;
+	color: #666;
+	text-decoration: none;
+	float: left;
+	padding-left: 40px;
+	background-image: url(../images/NEWS_PIC.gif);
+	background-repeat: no-repeat;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	background-position: 30px;
+}
+#news_list li a:hover {
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	float: left;
+	padding-left: 40px;
+	background-image: url(../images/NEWS_PIC.gif);
+	background-repeat: no-repeat;
+	background-position: 30px;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+}
+#news_list li .time {
+	float: right;
+	margin-right: 20px;
+	color: #999;
+	height: 25px;
+	line-height: 25px;
+}
+.more {
+	height: 19px;
+	clear: both;
+	text-align: right;
+}
+#message_box {
+	float: left;
+	width: 316px;
+	background-image: url(../images/Default_33.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+#message_title_pic {
+	height: 41px;
+	width: 153px;
+}
+#message_content {
+	height: 109px;
+	width: 296px;
+	font-size: 12px;
+	line-height: 23px;
+	color: #666;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#js_box {
+	float: right;
+	width: 319px;
+}
+#js_title_pic  {
+	height: 41px;
+	width: 158px;
+}
+#js_list li a {
+	font-size: 12px;
+	color: #666;
+	text-decoration: none;
+	float: left;
+	padding-left: 30px;
+	background-image: url(../images/NEWS_PIC.gif);
+	background-repeat: no-repeat;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	background-position: 18px;
+}
+#js_list li a:hover {
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	float: left;
+	padding-left: 30px;
+	background-image: url(../images/NEWS_PIC.gif);
+	background-repeat: no-repeat;
+	background-position: 18px;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+}
+#js_list li .time {
+	float: right;
+	margin-right: 20px;
+	color: #999;
+	height: 25px;
+	line-height: 25px;
+}
+#js_list li {
+	clear: both;
+}

@@ -1,0 +1,65 @@
+﻿
+/* css 重置 */
+img { border: none; }
+a { blr: expression(this.onFocus=this.blur()); outline: none; }
+
+/*本例css*/
+.banner { position: relative; overflow:hidden;}
+.bannerPic {
+
+}
+.bannerPic li  a{
+	display: block;
+	height: 430px;
+	background-position: center top;
+	width: 100%;
+}
+.bannerPic li  span{
+	display: block;
+	height: 430px;
+	background-position: center top;
+	width: 100%;
+}
+.bannerPic .pic1  {
+	background-color: #000034;
+}
+.bannerPic .pic1  a{
+	background-image: url(../images/bannaer1.jpg);
+}
+.bannerPic .pic2  {
+	background-color: #0F0;
+}
+.bannerPic .pic3  {
+	background-color: #00F;
+}
+.bannerPic .pic4  {
+	background-color: #FF0;
+}
+.bannerPic .pic5  {
+	background-color: #F90;
+}
+.bannerPic .pic6  {
+	background-color: #F0F;
+}
+
+
+
+
+
+/*数字按钮样式*/
+.banner .num { overflow:hidden; height: 25px; position: absolute; bottom:12px; left: 15px; zoom:1; z-index:3 }
+.banner .num li { width: 25px; height: 25px; line-height: 25px; text-align: center; font-weight: 400; font-family: "微软雅黑", Arial; color: #FFFFFF; background: #444444; margin-right: 10px; border-radius:50%; cursor:pointer; float: left; }
+.banner .num li.on { background: #FF7700; } /*当前项*/
+
+/*上一个  下一个*/
+.banner .prev,
+.banner .next {
+	width: 40px;
+	height: 100px;
+	background: url(../image/btn.png) no-repeat;
+	position: absolute;
+	top: 140px;
+	display: none;
+}
+.banner .prev { left: 0; }
+.banner .next { right: 0; background-position: right }
